@@ -1,0 +1,42 @@
+<h1 id="mhchem-for-MathJax-3-3"><a href="#mhchem-for-MathJax-3-3" class="headerlink" title="mhchem for MathJax, 3.3"></a>mhchem for MathJax, 3.3</h1><p>mhchem for MathJax is a 3rd-party extension for MathJax, for typesetting chemical equations.</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><pre><code>\ce{CO2 + C -&gt; 2 CO}
+</code></pre>
+<h2 id="Manual"><a href="#Manual" class="headerlink" title="Manual"></a>Manual</h2><p><a href="https://mhchem.github.io/MathJax-mhchem/">The manual (including a live test drive)</a></p>
+<h2 id="Using-cdnjs"><a href="#Using-cdnjs" class="headerlink" title="Using cdnjs"></a>Using cdnjs</h2><p>For information on how to load the extension and make the <code>\ce</code> command available,<br>see the <a href="http://docs.mathjax.org/en/latest/configuration.html#using-in-line-configuration-options">official MathJax docs</a>.<br>In short, use this config:</p>
+<pre><code>MathJax.Ajax.config.path[&quot;mhchem&quot;] =
+  &quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2&quot;;
+MathJax.Hub.Config({
+  TeX: {
+    extensions: [&quot;[mhchem]/mhchem.js&quot;]
+  }
+});
+</code></pre>
+<h2 id="Changes-of-v3-0-x-when-compared-to-v2-6-0-“legacy-true”"><a href="#Changes-of-v3-0-x-when-compared-to-v2-6-0-“legacy-true”" class="headerlink" title="Changes of v3.0.x (when compared to v2.6.0 “legacy: true”)"></a>Changes of v3.0.x (when compared to v2.6.0 “legacy: true”)</h2><ul>
+<li>Complete rewrite of syntax parser</li>
+<li>Staggered layout for charges (IUPAC style)</li>
+<li>Improved spacing and space handling: 1/2 X^{2-} v, $n-1$ H^3HO(g), ^{22,98}_{11}Na, …</li>
+<li>Decimal amounts: 0.5 H2O, 0,5 H2O</li>
+<li>Advanced charge/bond/hyphen distinction: OH-(aq), \mu-Cl, -H- …</li>
+<li>Decimal and negative superscripts/subscripts: ^0_-1n-, ^{22.98}_{11}Na</li>
+<li>Superscript electrons: OCO^{.-}</li>
+<li>IUPAC fraction style: (1/2)H2O</li>
+<li>Auto-italic variables: n H2O, nH2O, NO_x, but pH</li>
+<li>Improved scanning: Fe^n+, X_\alpha, NO_$x$, $\alpha$$a$, …</li>
+<li>Some unicode input, e.g. arrows</li>
+<li>{text} text escape</li>
+<li>\bond{3}</li>
+<li>Arrow arguments now parsed as \ce: A -&gt;[H2O] B, A -&gt;[$x$] B</li>
+<li>&lt;–&gt; arrow</li>
+<li>More opeators: A + B = C - D, \pm</li>
+<li>Recursion works (\ce inside \ce)</li>
+<li>Removed hardly used synonyms \cf, \cee and command \hyphen</li>
+<li>Excited state: X^*</li>
+<li>Ellipsis vs bond: A…A, B…B, …</li>
+<li>Punctuation: , ;</li>
+<li>Dissociation constant: pKa</li>
+<li>Orbitals: sp^2, s^{0.5}p^3-N</li>
+<li>Kroeger-Vink notation</li>
+<li>Better-looking Fast-HTML rendering: \ce{A + _{a}X}</li>
+<li>Many other things</li>
+<li>Side-effects for non-standard input</li>
+</ul>
