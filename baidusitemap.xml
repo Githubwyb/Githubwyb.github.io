@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Githubwyb.github.io/blogs/2021-04-23-nginx/</loc>
-    <lastmod>2023-10-23</lastmod>
+    <loc>https://Githubwyb.github.io/blogs/2021-03-05-shadowsocks/</loc>
+    <lastmod>2023-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2022-12-28-architect/</loc>
+    <lastmod>2023-11-06</lastmod>
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2021-03-22-kali/</loc>
-    <lastmod>2023-10-23</lastmod>
+    <lastmod>2023-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2023-09-22-mysql/</loc>
+    <lastmod>2023-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2021-10-18-sql/</loc>
+    <lastmod>2023-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2023-10-31-lua/</loc>
+    <lastmod>2023-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2021-04-23-nginx/</loc>
+    <lastmod>2023-11-01</lastmod>
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2020-11-13-docker/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2018-09-16-shellStudy/</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2020-03-23-nodejs/</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://Githubwyb.github.io/blogs/2018-09-16-pythonStudy/</loc>
+    <lastmod>2023-10-24</lastmod>
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2018-10-25-dataScienceStudyPython/</loc>
@@ -22,14 +54,6 @@
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2021-10-16-anaconda/</loc>
-    <lastmod>2023-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://Githubwyb.github.io/blogs/2018-09-16-shellStudy/</loc>
-    <lastmod>2023-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://Githubwyb.github.io/blogs/2020-03-23-nodejs/</loc>
     <lastmod>2023-10-18</lastmod>
   </url>
   <url>
@@ -53,19 +77,11 @@
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
-    <loc>https://Githubwyb.github.io/blogs/2023-09-22-mysql/</loc>
-    <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
     <loc>https://Githubwyb.github.io/blogs/2021-09-23-web-offense-and-defense/</loc>
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2021-07-28-openssl/</loc>
-    <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://Githubwyb.github.io/blogs/2021-10-18-sql/</loc>
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
@@ -161,10 +177,6 @@
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
-    <loc>https://Githubwyb.github.io/blogs/2022-12-28-architect/</loc>
-    <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
     <loc>https://Githubwyb.github.io/blogs/2023-01-02-shellcode/</loc>
     <lastmod>2023-10-15</lastmod>
   </url>
@@ -178,10 +190,6 @@
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2021-02-27-linux/</loc>
-    <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://Githubwyb.github.io/blogs/2021-03-05-shadowsocks/</loc>
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
@@ -422,10 +430,6 @@
   </url>
   <url>
     <loc>https://Githubwyb.github.io/blogs/2018-08-20-gitStudy/</loc>
-    <lastmod>2023-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://Githubwyb.github.io/blogs/2018-09-16-pythonStudy/</loc>
     <lastmod>2023-10-15</lastmod>
   </url>
   <url>
